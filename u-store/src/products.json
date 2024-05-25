@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Guitarra Acustica",
+    "description": "Guitarra acustica 6 cuerdas marca Yamaha",
+    "price": 10.0
+  },
+  {
+    "id": 2,
+    "name": "Bateria Acustica",
+    "description": "Bateria acustica marca Boss",
+    "price": 200.0
+  },
+  {
+    "id": 3,
+    "name": "Bajo 5 cuerdas",
+    "description": "Bajo activo marca Vorson",
+    "price": 30.0
+  }
+]
