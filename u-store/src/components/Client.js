@@ -61,7 +61,7 @@ const Client = ({ products, setProducts }) => {
           <button onClick={() => removeFromCart(item.id)}>Remove</button>
         </div>
       ))}
-      <p>Total: ${totalAmount.toFixed(2)}</p>
+      <p>Total: ${Number(totalAmount).toFixed(2)}</p>
       <button onClick={finalizePurchase}>Finalize Purchase</button>
       {showPayButton && <button onClick={pay}>Pay</button>}
     </div>
